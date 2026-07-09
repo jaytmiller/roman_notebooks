@@ -23,4 +23,4 @@ Please refer to the [Roman Documentation (RDox)](https://roman-docs.stsci.edu) w
 
 If you need assistance, please submit a ticket through the [Roman Help Desk](https://romanhelp.stsci.edu) portal. Once logged into the help desk, click on "Get Help with the Roman Space Telescope" and then select the "Roman Research Nexus" category and submit your ticket.
 
-2026.2.1
+2026.2.2
