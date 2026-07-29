@@ -39,6 +39,7 @@ def _resolve_dependencies(dependencies=None):
     ]
 
     for candidate in candidates:
+        print("Candidate", candidate, "resolves to", candidate.absolute()+".", "Searching...")
         if candidate.is_file():
             return str(candidate)
 
