@@ -35,6 +35,7 @@ def _resolve_dependencies(dependencies=None):
     candidates = [
         module_path.parent.parent / _MANIFEST_NAME,
         Path.cwd() / _MANIFEST_NAME,
+        Path.cwd() / ".." / ".." /_MANIFEST_NAME,
     ]
 
     for candidate in candidates:
